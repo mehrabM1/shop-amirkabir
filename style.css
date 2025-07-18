@@ -1,0 +1,61 @@
+
+body {
+    background-color: #121212;
+    color: #FFD700;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+header {
+    background: #1c1c1c;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #FFD700;
+}
+main {
+    padding: 1rem;
+}
+.categories ul {
+    list-style: none;
+    padding: 0;
+}
+.categories li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #444;
+}
+.order-form {
+    margin-top: 2rem;
+}
+.order-form form {
+    display: flex;
+    flex-direction: column;
+}
+.order-form input, .order-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+}
+.order-form button {
+    background-color: #FFD700;
+    border: none;
+    color: #000;
+    padding: 0.7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.payment-info {
+    margin-top: 2rem;
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1c1c1c;
+    border-top: 1px solid #FFD700;
+    margin-top: 2rem;
+}
